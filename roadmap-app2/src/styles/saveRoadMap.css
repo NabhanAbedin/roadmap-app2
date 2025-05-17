@@ -1,0 +1,39 @@
+.roadmap-save-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    width: fit-content;
+    margin-left: 30px;
+  }
+  
+  .roadmap-save-container input {
+    width: 300px;
+    height: 30px;
+    background-color: lightgray;
+    border: none;
+    font: inherit;
+    padding: 5px;
+    font-size: 15;
+  }
+
+  .roadmap-save-container input:focus{
+    outline: none;
+  }
+  
+  
+  .roadmap-save-container .save-button {
+    padding: 6px 14px;
+    border: 2px solid #4a90e2;
+    background: inherit;
+    color: inherit;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  .roadmap-save-container .save-button:hover {
+    background-color: #4a90e2;
+    color: inherit;
+  }
