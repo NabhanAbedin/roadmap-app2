@@ -1,6 +1,6 @@
 .homepage-container {
   padding: 120px 20px 40px 20px;
-  color: #f0f0f0;
+  color:inherit;
   max-width: 1000px;
   margin: 0 auto;
   text-align: center;
@@ -16,7 +16,7 @@
 .homepage-hero-title {
   font-size: 48px;
   font-weight: 700;
-  color: white;
+  color:inherit;
   max-width: 700px;
 }
 
