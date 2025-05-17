@@ -13,10 +13,14 @@ const OffScreenMenu = () => {
 
     return (
        <>
-        <button onClick={handleClick} className='burger-icon'><img src={hamburgerImg} alt="" /></button>
+        <button onClick={handleClick} className='burger-icon'
+        style={active ? {position: 'fixed'}: {}}
+        ><img src={hamburgerImg} alt="" /></button>
         <div className={`off-screen-menu ${active ? 'active': ''}`}>
-        <Link to='/'>Home</Link>
-        <Link to='/roadmap'>Roadmap</Link>
+            <div className='links-container'>
+                <Link to='/'>Home</Link>
+                <Link to='/roadmap'>Roadmap</Link>
+            </div>
         </div>
        </>
         

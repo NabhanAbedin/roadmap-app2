@@ -25,7 +25,7 @@
 
 
 .off-screen-menu {
-    background-color: rgb(78, 78, 80);
+    background-color: #1f1f1f;
     /*background-color: rgb(10, 6, 25);*/
     height: 100vh;
     width: 100%;
@@ -42,8 +42,13 @@
 
 .off-screen-menu ul {
     background-color: transparent;
-    margin-left: -20px;
+    margin-left: 0;
     margin-top: 140px;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
 }
 
 .off-screen-menu li {
@@ -52,14 +57,24 @@
     background-color: transparent;
 }
 
-
-.off-screen-menu li a {
-    text-decoration: none;
-
+.links-container {
+    margin-top: 80px;
 }
 
-.off-screen-menu li a:hover {
-    text-decoration: underline;
+.off-screen-menu a {
+    color: #f0f0f0;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+    display: block;
+}
+
+.off-screen-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .off-screen-menu.active {
